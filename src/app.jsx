@@ -28,7 +28,6 @@ class App extends React.Component {
         {
           this.state.selectedNote ?
           <EditorComponent selectedNote={this.state.selectedNote}
-          notes={this.state.notes}
           noteUpdate={this.noteUpdate}></EditorComponent> :
           null
         }
